@@ -1,0 +1,17 @@
+# UMich GitLab
+Host gitlab
+	HostName gitlab.com
+	User git
+	IdentityFile ~/.ssh/mrako_rsa
+
+# CAEN
+Host caen
+	HostName login.engin.umich.edu
+	User mrako
+	Compression yes
+
+# Github
+Host github
+	HostName github.com
+	User mikerako
+	
